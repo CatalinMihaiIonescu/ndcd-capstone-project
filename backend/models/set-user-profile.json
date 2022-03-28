@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "userprofile",
+    "type": "object",
+    "properties": {
+      "email": {
+        "type": "string",
+        "minLength": 6,
+        "maxLength": 127,
+        "format": "email"
+      }
+    },
+    "required": [
+      "email"
+    ],
+    "additionalProperties": false
+  }
+  
