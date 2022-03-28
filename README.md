@@ -15,6 +15,8 @@ I added the option to set your email in the main page of the app.
 Once you do so you will receive a confirmation email that you need to accept. Then you will be able to receive a notification for each new TODO you create.
 Other users will not receive your notification and will not be able to see your email.
 
+You can set, edit and delete your email.
+
 I added on dynamoDB database to hold user info (email and SNS subscription ARN) and an SNS queue that is used to deliver mails.
 
 # TODO items
